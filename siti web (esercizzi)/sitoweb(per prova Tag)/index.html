@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10000"; http://127.0.0.1:5500/index.html >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+    <title>Document</title>
+
+</head>
+<body>
+ 
+        <div>
+            <input type="color" value="#448370">
+            <button onclick="getColor()">get color</button>
+        </div>
+
+
+        <!-- usabile anche (select) -->
+        <div>
+            <input type="text" list="lista" id="inputTesto">
+            <datalist id="lista">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </datalist>
+            <button onclick="getValore()">Get valore</button>
+        </div>
+
+
+        <details>
+            <summary>get Code</summary>
+            <div>XXPK-LMNO-PKLN</div>
+        </details>
+
+        <div>
+        <progress value="25" max="100" id="progress"></progress>
+        <button onclick="cambiaValore()">Cambia valore</button>
+        </div>
+
+
+        <fieldset>
+            <legend>titolo</legend>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat quam aperiam.</p>
+        </fieldset>
+
+
+</body>
+</html>
